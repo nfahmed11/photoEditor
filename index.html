@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Photo Editor</title>
+  </head>
+  <body>
+    <h2>Photo <span>Editor</span></h2>
+
+    <div>
+      <label for="Spacing">Spacing</label>
+      <input
+        name="spacing"
+        type="range"
+        min="10"
+        max="100"
+        value="40"
+        data-sizing="px"
+      />
+
+      <label for="Blur">Blur</label>
+      <input
+        name="blur"
+        type="range"
+        min="1"
+        max="50"
+        value="3"
+        data-sizing="px"
+      />
+
+      <label for="Base Color">Base Color</label>
+      <input name="basecolor" type="color" value="#FF8040" />
+    </div>
+
+    <img src="photo-1628101478852-04dc0a6d46f9.jpeg" alt="" />
+
+    <script src="app.js"></script>
+  </body>
+</html>
